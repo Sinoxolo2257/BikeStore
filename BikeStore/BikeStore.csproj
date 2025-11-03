@@ -127,9 +127,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\BundleConfig2.cs" />
+    <Compile Include="App_Start\BundleConfig3.cs" />
+    <Compile Include="App_Start\BundleConfig4.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\StaffController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -194,6 +200,24 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Images\._Electra_Cruiser 1.jpeg" />
+    <Content Include="Content\Images\._Electra_Cruiser.jpeg" />
+    <Content Include="Content\Images\._Haro_Bikes1.jpeg" />
+    <Content Include="Content\Images\._Haro_mountain_bike.jpeg" />
+    <Content Include="Content\Images\._Heler_bike2.jpeg" />
+    <Content Include="Content\Images\._Heller_bike1.jpeg" />
+    <Content Include="Content\Images\._Pure_Cycles1.jpeg" />
+    <Content Include="Content\Images\._Pure_Cycles2.jpeg" />
+    <Content Include="Content\Images\._Ritchey_bike2.jpeg" />
+    <Content Include="Content\Images\._Riychey_bike1.jpeg" />
+    <Content Include="Content\Images\._Strider_balance_bike1.jpeg" />
+    <Content Include="Content\Images\._Strider_sport_bike.jpeg" />
+    <Content Include="Content\Images\._Sun_Bicycles1.jpeg" />
+    <Content Include="Content\Images\._Sun_bicycles_retro.jpeg" />
+    <Content Include="Content\Images\._Surly_bike.jpeg" />
+    <Content Include="Content\Images\._Surly_preamble_bike.jpeg" />
+    <Content Include="Content\Images\._Trek_Marlin_bike.jpeg" />
+    <Content Include="Content\Images\._Trek_Xcaliber_bike.jpeg" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -248,6 +272,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Data\" />
+    <Folder Include="Views\Customers\" />
+    <Folder Include="Views\Products\" />
+    <Folder Include="Views\Staff\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
