@@ -36,7 +36,7 @@ namespace BikeStore.Controllers
             return View(customer);
         }
         // GET: Customers/Create
-        public async Task<ActionResult> Create()
+        public ActionResult Create()
         {
             return PartialView("_Create");
         }
