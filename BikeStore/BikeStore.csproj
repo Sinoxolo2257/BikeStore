@@ -163,6 +163,7 @@
     <Compile Include="Models\customer.cs">
       <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\HomeVM.cs" />
     <Compile Include="Models\order.cs">
       <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
@@ -172,6 +173,7 @@
     <Compile Include="Models\product.cs">
       <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ReportVM.cs" />
     <Compile Include="Models\staff.cs">
       <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
@@ -266,16 +268,22 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Maintain.cshtml" />
+    <Content Include="Views\Home\Reports.cshtml" />
+    <Content Include="Views\Staff\_Create.cshtml" />
+    <Content Include="Views\Staff\_Edit.cshtml" />
+    <Content Include="Views\Staff\_Delete.cshtml" />
+    <Content Include="Views\Customers\_Create.cshtml" />
+    <Content Include="Views\Customers\_Delete.cshtml" />
+    <Content Include="Views\Customers\_Edit.cshtml" />
+    <Content Include="Views\Products\_Create.cshtml" />
+    <Content Include="Views\Products\_Edit.cshtml" />
+    <Content Include="Views\Products\_Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Data\" />
-    <Folder Include="Views\Customers\" />
-    <Folder Include="Views\Products\" />
-    <Folder Include="Views\Staff\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
