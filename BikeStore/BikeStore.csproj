@@ -139,47 +139,47 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\BikeStoreModel.Context.cs">
+    <Compile Include="Models\BikeStore.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BikeStoreModel.Context.tt</DependentUpon>
+      <DependentUpon>BikeStore.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\BikeStoreModel.cs">
+    <Compile Include="Models\BikeStore.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\BikeStoreModel.Designer.cs">
+    <Compile Include="Models\BikeStore.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BikeStoreModel.edmx</DependentUpon>
+      <DependentUpon>BikeStore.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\brand.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\category.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\customer.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\order.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\order_items.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\product.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\staff.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\stock.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\store.cs">
-      <DependentUpon>BikeStoreModel.tt</DependentUpon>
+      <DependentUpon>BikeStore.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -221,15 +221,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\BikeStoreModel.Context.tt">
+    <Content Include="Models\BikeStore.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BikeStoreModel.edmx</DependentUpon>
-      <LastGenOutput>BikeStoreModel.Context.cs</LastGenOutput>
+      <DependentUpon>BikeStore.edmx</DependentUpon>
+      <LastGenOutput>BikeStore.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\BikeStoreModel.tt">
+    <Content Include="Models\BikeStore.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>BikeStoreModel.edmx</DependentUpon>
-      <LastGenOutput>BikeStoreModel.cs</LastGenOutput>
+      <DependentUpon>BikeStore.edmx</DependentUpon>
+      <LastGenOutput>BikeStore.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -237,12 +237,12 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\BikeStoreModel.edmx">
+    <EntityDeploy Include="Models\BikeStore.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>BikeStoreModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>BikeStore.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\BikeStoreModel.edmx.diagram">
-      <DependentUpon>BikeStoreModel.edmx</DependentUpon>
+    <Content Include="Models\BikeStore.edmx.diagram">
+      <DependentUpon>BikeStore.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />

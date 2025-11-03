@@ -13,10 +13,10 @@ namespace BikeStore.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class BikeStoresEntities1 : DbContext
+    public partial class BikeStoresEntities : DbContext
     {
-        public BikeStoresEntities1()
-            : base("name=BikeStoresEntities1")
+        public BikeStoresEntities()
+            : base("name=BikeStoresEntities")
         {
         }
     
